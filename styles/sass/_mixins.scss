@@ -1,0 +1,26 @@
+@mixin start-building-button {
+    width: fit-content;
+    height: 52px;
+    padding:16px 33px ;
+    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+    border: 1px solid #000000;
+    border-radius: 36px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+@mixin classic-button {
+
+    padding: 16px 33px;
+    width: fit-content;
+    height: 52px;
+    background: #000000;
+        border: 1px solid #FFFFFF;
+        border-radius: 36px;
+        font-weight: 400;
+            font-size: 15px;
+            color: white;
+            cursor: pointer;
+}

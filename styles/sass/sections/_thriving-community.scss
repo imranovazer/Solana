@@ -1,0 +1,55 @@
+.thriving-community {
+    width: 100% ;
+    background-color: black;
+    position: relative;
+    .slider {
+        width: 100%;
+        
+        position: absolute;
+        height: 422px;
+        top: 200px;
+        background-image: url('../../../images/slider.svg');
+    }
+    .container {
+        background-image: url('../../../images/background-last.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        
+        padding-top: 125px;
+        padding-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: white;
+            font-weight: 400;
+            font-size: 38px;
+            margin-bottom: 583px;
+
+        }
+        .text-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                max-width: 736px;
+                font-size: 38px;
+                font-weight: 400;
+                color: white;
+                text-align: center;
+                margin-bottom: 18px ;
+            }
+           
+
+
+        }
+                 .for-building {
+                       @include start-building-button ;
+                        margin: 0 auto;
+                        border: 1px solid black;
+                    
+                 }
+    }
+}

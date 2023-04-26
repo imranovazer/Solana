@@ -1,0 +1,34 @@
+.companies {
+    width: 100%;
+    background-color: black;
+    
+        .container {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            p{
+                font-weight: 400;
+                    font-size: 15px;
+                    color: #618ADC;
+            }
+            .container-for-logos {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+                flex-wrap: wrap;
+            }
+
+        }
+    
+
+}
+@media screen and (max-width : 780px) {
+    .companies .container {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+}

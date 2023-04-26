@@ -1,0 +1,199 @@
+.community {
+    width: 100%;
+    // height: 1690px;
+    background-color: black ;
+    background-image: url('../../../images/backround.svg');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    .container {
+        padding: 124px 50px 0 50px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        gap: 80px;
+        .greeting {
+            width: 100%;
+            display: flex;
+            .left {
+                color: white;
+                font-weight: 400;
+                font-size: 38px;
+                width: 50%;
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                gap :48px ;
+                .statistics {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .number {
+                        font-weight: 400;
+                        font-size: 101px;
+                        color: white;
+                        background: linear-gradient(261.81deg, #19FB9B -8.01%, #8C01FA 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                        text-fill-color: transparent;
+
+                    }
+                    .second {
+                        font-weight: 400;
+                            font-size: 101px;
+                            color: white;
+                        background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-clip: text;
+                            text-fill-color: transparent;
+                       
+                    }
+                    .third {
+                        font-weight: 400;
+                            font-size: 101px;
+                            color: white;
+                            background: linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            background-clip: text;
+                            text-fill-color: transparent;
+                    }
+                    p {
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #C4C4C4; 
+                    }
+
+                }
+
+            }
+
+            
+        }
+
+        .made-for-mass-adoption {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .left {
+                h2{
+                    font-weight: 400;
+                    font-size: 38px;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+                p {
+                        display: flex;
+                        align-items: start;
+                        gap: 4.5px;
+                        font-weight: 400;
+                            font-size: 16px;
+                            color: #C4C4C4;
+                            span {
+                                border-radius: 50%;
+                                display: inline-block;
+                                width: 4.5px;
+                                height: 4.5px;
+                                background-color: #1FCFF1;
+                            }
+                }
+             
+              
+            }
+            .middle.middle {
+                 padding-top: 64px;
+            }
+            .middle.right {
+                padding-top: 0;
+            }
+            .middle {
+                display: flex;
+                flex-direction: column;
+                
+                gap: 8px;
+                .card {
+                    background: rgba(0, 0, 0, 0.28);
+                    max-width: 340px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    height: 308px;
+                    border-radius: 24px;
+                    padding: 32px;
+                    gap : 20px ;
+                    .card-name{
+                        font-weight: 400;
+                        font-size: 28px;
+                        border-left: 2px solid #1FCFF1;
+                        color: white;
+                        padding-left: 17px;
+                    }
+                    &.two .card-name{
+                        border-left: 2px solid #9945FF;
+                    } 
+                    &.three .card-name {
+                        border-left: 2px solid #FFD512;
+                    }
+                    &.fourth .card-name {
+                        border-left: 2px solid #19FB9B;
+                    }
+                    p {
+                        font-weight: 400;
+                            font-size: 17px;
+                            color: #C4C4C4;
+                            a {
+                                color: #19FB9B;
+                            }
+                    }
+                    .statistics-number {
+                        display: flex;
+                        align-items: start;
+                        gap: 5px;
+                        font-weight: 400;
+                        font-size: 28px;
+                        color: white;
+                        span {
+                            background-color: #1FCFF1;
+                            border-radius: 50%;
+                            width: 4.5px;
+                            height: 4.5px;
+                        }
+
+                    }
+                    .short-info {
+                        text-transform: uppercase;
+                    }
+                }   
+            }
+
+
+
+        }   
+    }
+}
+@media only screen and (max-width : 1000px) {
+        .community .container .greeting {
+            text-align: center;
+            flex-direction: column;
+            .left {
+                width: 100%;
+            }
+        }
+        .community .container .made-for-mass-adoption {
+
+            flex-direction: column;
+            .left {
+                display: flex;
+                    flex-direction: column;
+                align-items: center;
+            }
+            .middle {
+                align-items: center;
+            }
+        }
+}
